@@ -1,0 +1,6 @@
+#! /usr/bin/bash
+
+clang $1.c -o /tmp/$1.out
+/tmp/$1.out
+
+
